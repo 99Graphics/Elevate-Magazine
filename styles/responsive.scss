@@ -1,0 +1,100 @@
+@media (max-width: 1366px) {
+  .content-articles .figure img {
+    height: 177px;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 1199px) {
+  #Navbar-menu {
+    background: #fff;
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+    border: none;
+  }
+
+  .banner-sec {
+    flex-wrap: wrap;
+  }
+
+  .header-categoris .figure-caption {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .recent-title:after {
+    width: 76%;
+  }
+
+  .bloggingtitle:after {
+    width: 86%;
+  }
+
+  .content-articles .figure img {
+    height: auto;
+  }
+}
+
+@media (max-width: 991px) {
+  .article-subscribe {
+    margin-top: 20px;
+  }
+
+  .banner-sec {
+    width: 100%;
+    display: inline-block !important;
+  }
+
+  .banner-sec .figure {
+    width: 100%;
+  }
+
+  .banner-sec .figure img {
+    width: 100%;
+  }
+
+  .kathleen-content:after {
+    display: none;
+  }
+
+  .blog-right img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .content-articles {
+    flex-wrap: wrap;
+  }
+
+  .content-articles .figure,
+  .content-articles .figure img {
+    width: 100%;
+  }
+
+  .recent-title:after {
+    width: 68%;
+  }
+
+  .scholarship-awards h2 {
+    font-size: 33px;
+    line-height: 33px;
+  }
+
+  .header-categoris .row .col-md-4 .d-flex {
+    border: none;
+  }
+}
+
+@media (max-width: 540px) {
+  .bloggingtitle:after {
+    width: 73%;
+  }
+}
+
+@media (max-width: 436px) {
+  .recent-title:after {
+    width: 57%;
+  }
+}

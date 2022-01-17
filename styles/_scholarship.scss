@@ -1,0 +1,270 @@
+.scholarship-awards{
+    h5 {
+        color: $grey;
+        font-size: 12px;
+        line-height: 16px;
+        font-weight: 500;
+        padding: 20px 0 8px;
+      }
+      h2 {
+        color: $blueDark;
+        font-size: 48px;
+        line-height: 50px;
+        font-weight: 700;
+        padding-top: 0;
+        font-family: "Didot";
+      }
+      p {
+        color: $blueDark;
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 400;
+        padding-top: 0;
+      }
+} 
+
+.scholarship-awards 
+
+.scholarship-awards 
+
+.search-scholar {
+  position: relative;
+  box-shadow: 0 0 40px rgba(51, 51, 51, 0.1);
+  margin-top: 20px;
+  input {
+    height: 50px;
+    text-indent: 25px;
+    border: 2px solid $white;
+    font-size: 14px;
+    &:focus{
+        box-shadow: none;
+        border: 2px solid $yellow;
+    }
+    &::placeholder{
+        color: $grey;
+        opacity: 1;
+        font-family: "Mukta", sans-serif;
+        font-size: 14px;
+    }
+    &::-ms-input-placeholder {
+        color: $grey;
+        font-family: "Mukta", sans-serif;
+        font-size: 14px;
+      }
+  }
+  .fa-search {
+    position: absolute;
+    top: 17px;
+    left: 16px;
+  }
+  
+}
+
+
+
+
+.title-most{
+    h4 {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 24px;
+        color: $blueDark;
+        padding-bottom: 15px;
+      }
+      a {
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 14px;
+        color: $blueDark;
+        text-transform: uppercase;
+      }
+} 
+
+
+.pp-scholarship p {
+  color: $blueDark;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  padding: 0;
+}
+
+.blogging li {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.blogging li a {
+  display: inline-block;
+  padding: 10px 15px;
+  color: $blueDark;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+
+  border-radius: 76px;
+  background: $yellow;
+  border: 1px solid $black;
+}
+
+.blogging li a i {
+  color: $black;
+  margin-left: 5px;
+  font-size: 10px;
+  width: 20px;
+  height: 20px;
+  background: $white;
+  line-height: 20px;
+  text-align: center;
+
+  border-radius: 100px;
+}
+
+.bloggingtitle {
+  color: $black;
+  font-size: 12px;
+  text-transform: uppercase;
+  line-height: 14px;
+  text-align: left;
+  position: relative;
+  padding-top: 25px;
+}
+
+.bloggingtitle:after {
+  content: "";
+  width: 90%;
+  height: 1px;
+  background: #ccc;
+  position: absolute;
+  right: 0;
+  top: 32px;
+}
+
+.main-blog-content {
+  background: $white;
+  padding: 35px;
+  border: 1px solid #cccdcd;
+  margin-top: 20px;
+  position: relative;
+}
+
+.main-blog-content h2 {
+  color: $blueDark;
+  font-size: 18px;
+  line-height: 24px;
+  padding: 0;
+}
+
+.main-blog-content p {
+  color: $blueDark;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 0;
+}
+
+.main-blog-content p > a {
+  display: inherit;
+}
+
+.main-blog-content .hide {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.main-blog-content .hide i {
+  color: $blue;
+}
+
+.btn-donate a {
+  color: $white;
+  font-size: 14px;
+  line-height: 23px;
+  display: inline-block;
+  padding: 10px 30px;
+  background: $blue;
+  border-radius: 100px;
+  margin-top: 20px;
+}
+
+.blog-right {
+  background: #e5e9ec;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.blog-right h4 {
+  color: $blueDark;
+  padding: 0 0 20px;
+  line-height: 19px;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.blog-right h5 {
+  color: $blue;
+  padding: 20px 0 0px;
+  line-height: 20px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.blog-right time {
+  line-height: 16px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #596172;
+  display: inherit;
+}
+
+@media all and (-ms-high-contrast: none) {
+  .row .col-md-6,
+  .row .col-md-4,
+  .row .col-md-3 {
+    padding: 0 1.5rem;
+  } /* IE10 */
+
+  *::-ms-backdrop,
+  .row .col-md-6,
+  *::-ms-backdrop,
+  .row .col-md-4,
+  *::-ms-backdrop,
+  .row .col-md-3 {
+    padding: 0 1.5rem;
+  } /* IE11 */
+}
+
+.scrollup {
+  width: 50px;
+
+  height: 50px;
+
+  position: fixed;
+
+  bottom: 30px;
+
+  right: 30px;
+
+  display: none;
+
+  z-index: 9999;
+
+  color: $white;
+
+  text-align: center;
+
+  line-height: 50px;
+
+  font-size: 16px;
+
+  background-image: linear-gradient(to bottom, #fff2f5, #ebf3fd);
+
+  border-radius: 999px;
+}
+
+.scrollup:hover {
+  color: $white;
+}
